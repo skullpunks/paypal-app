@@ -57,6 +57,7 @@ function Button() {
        *   facilitatorAccesstoken: string;
        * }
        */
+      
       return actions.order.capture({}).then((details: any) => {
         alert(
           "Transaction completed by"
